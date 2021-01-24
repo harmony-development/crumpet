@@ -1,0 +1,18 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"boringssl": "0.0.1",
+		"grpc": "0.3.0-beta.5",
+		"gtk-d": "3.9.0",
+		"hunt": "1.6.10",
+		"hunt-extra": "1.0.7",
+		"hunt-http": "0.6.13",
+		"hunt-imf": "0.0.7",
+		"hunt-net": "0.5.9",
+		"hunt-openssl": "1.0.2",
+		"hunt-security": "0.1.0",
+		"hunt-trace": "0.1.9",
+		"openssl": "1.1.6+1.0.1g",
+		"protobuf": "0.6.2"
+	}
+}

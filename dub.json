@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Janet Blackquill"
+	],
+	"copyright": "Copyright © 2021, Janet Blackquill",
+	"dependencies": {
+		"grpc": "~>0.3.0-beta.5",
+		"gtk-d": "~>3.9.0"
+	},
+	"description": "Harmony GTK client",
+	"license": "GPL-3.0",
+	"name": "crumpet"
+}

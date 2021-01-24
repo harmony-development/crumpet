@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/crumpet
+crumpet.so
+crumpet.dylib
+crumpet.dll
+crumpet.a
+crumpet.lib
+crumpet-test-*
+*.exe
+*.o
+*.obj
+*.lst
