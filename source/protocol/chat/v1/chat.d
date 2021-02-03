@@ -16,3 +16,4 @@ import protocol.chat.v1.streaming;
 import protocol.chat.v1.postbox;
 
 enum protocVersion = 3012004;
+import harmonytemplates.templates;

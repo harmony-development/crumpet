@@ -7,19 +7,12 @@ for dir in $(find "protocol" -name '*.proto' -print0 | xargs -0 -n1 dirname | so
 
     find "${dir}" -name '*.proto'
 
+    # -Iprotocol \
     protoc \
-    --experimental_allow_proto3_optional \
-    --plugin="$(which protoc-gen-d)" \
     --proto_path=protocol \
-    -Iprotocol \
     --d_out=source \
-    $(find "${dir}" -name '*.proto')
-
-    protoc \
-    --experimental_allow_proto3_optional \
-    --plugin=protoc-gen-grpc=/usr/local/bin/grpc_dlang_plugin \
-    --proto_path=protocol \
-    --grpc_out=./source/protocol \
+    --hrpc_out=source \
+    --hrpc_opt=d_client \
     $(find "${dir}" -name '*.proto')
 
 done
@@ -33,3 +26,5 @@ sed -i 's/!Message/!(protocol.harmonytypes.v1.types.Message)/g' $(find ./source/
 sed -i 's/Message\[\]/protocol.harmonytypes.v1.types.Message\[\]/g' $(find ./source/protocol/chat/v1 -name '*.d')
 
 sed -i 's/import google.protobuf.descriptor;//g' $(find ./source/protocol -name '*.d')
+
+sed -i '$aimport harmonytemplates.templates;' $(find ./source/protocol -name '*.d')

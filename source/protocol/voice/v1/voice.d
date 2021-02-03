@@ -63,3 +63,4 @@ class Signal
         @Proto(1) string offer = protoDefaultValue!string;
     }
 }
+import harmonytemplates.templates;

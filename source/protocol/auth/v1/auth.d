@@ -147,3 +147,4 @@ class LoginFederatedRequest
     @Proto(1) string authToken = protoDefaultValue!string;
     @Proto(2) string domain = protoDefaultValue!string;
 }
+import harmonytemplates.templates;

@@ -225,3 +225,4 @@ class Event
         @Proto(3) ulong channelId = protoDefaultValue!ulong;
     }
 }
+import harmonytemplates.templates;

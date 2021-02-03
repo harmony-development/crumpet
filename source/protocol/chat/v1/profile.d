@@ -42,3 +42,4 @@ class ProfileUpdateRequest
     @Proto(7) bool isBot = protoDefaultValue!bool;
     @Proto(8) bool updateIsBot = protoDefaultValue!bool;
 }
+import harmonytemplates.templates;

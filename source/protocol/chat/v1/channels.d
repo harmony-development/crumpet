@@ -70,3 +70,4 @@ class TypingRequest
     @Proto(1) ulong guildId = protoDefaultValue!ulong;
     @Proto(2) ulong channelId = protoDefaultValue!ulong;
 }
+import harmonytemplates.templates;

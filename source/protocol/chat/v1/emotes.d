@@ -71,3 +71,4 @@ class DequipEmotePackRequest
 {
     @Proto(1) ulong packId = protoDefaultValue!ulong;
 }
+import harmonytemplates.templates;

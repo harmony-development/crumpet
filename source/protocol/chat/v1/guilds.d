@@ -155,3 +155,4 @@ class RemoveGuildFromGuildListRequest
 class RemoveGuildFromGuildListResponse
 {
 }
+import harmonytemplates.templates;

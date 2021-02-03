@@ -86,3 +86,4 @@ class SendMessageResponse
 {
     @Proto(1) ulong messageId = protoDefaultValue!ulong;
 }
+import harmonytemplates.templates;

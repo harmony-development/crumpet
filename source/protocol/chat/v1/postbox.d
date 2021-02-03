@@ -37,3 +37,4 @@ class SyncEvent
         @Proto(5) string inviteId = protoDefaultValue!string;
     }
 }
+import harmonytemplates.templates;

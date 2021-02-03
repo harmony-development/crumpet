@@ -133,3 +133,4 @@ class GetUserRolesResponse
 {
     @Proto(1) ulong[] roles = protoDefaultValue!(ulong[]);
 }
+import harmonytemplates.templates;

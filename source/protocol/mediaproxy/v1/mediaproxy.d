@@ -39,3 +39,4 @@ class CanInstantViewResponse
 {
     @Proto(1) bool canInstantView = protoDefaultValue!bool;
 }
+import harmonytemplates.templates;

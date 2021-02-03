@@ -145,3 +145,4 @@ enum FieldPresentation
     CaptionedImage = 1,
     Row = 2,
 }
+import harmonytemplates.templates;
