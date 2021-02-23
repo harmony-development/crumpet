@@ -2,17 +2,19 @@
 	"fileVersion": 1,
 	"versions": {
 		"boringssl": "0.0.1",
+		"dproto": "2.1.6",
 		"grpc": "0.3.0-beta.5",
 		"gtk-d": "3.9.0",
-		"hunt": "1.6.11",
-		"hunt-extra": "1.0.7",
-		"hunt-http": "0.6.13",
+		"hunt": "1.7.1",
+		"hunt-extra": "1.1.0",
+		"hunt-http": "0.7.1",
 		"hunt-imf": "0.0.7",
-		"hunt-net": "0.5.10",
+		"hunt-net": "0.6.2",
 		"hunt-openssl": "1.0.3",
 		"hunt-security": "0.1.0",
 		"hunt-trace": "0.1.9",
 		"openssl": "1.1.6+1.0.1g",
+		"painlesstraits": "0.3.0",
 		"protobuf": "0.6.2"
 	}
 }

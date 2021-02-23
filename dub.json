@@ -4,9 +4,10 @@
 	],
 	"copyright": "Copyright © 2021, Janet Blackquill",
 	"dependencies": {
-		"protobuf": "~>0.6.2",
+		"dproto": "~>2.1.6",
 		"gtk-d": "~>3.9.0",
 		"hunt-http": "~>0.7.1",
+		"protobuf": "~>0.6.2"
 	},
 	"description": "Harmony GTK client",
 	"license": "GPL-3.0",

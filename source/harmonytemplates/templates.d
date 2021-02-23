@@ -38,9 +38,9 @@ mixin template Service(string Name, string Package, args...)
 		{
 		import std.range;
 
-		static foreach(i; 0 .. (args.length / 4))
+		static foreach(i; iota(0, args.length, 4))
 		{
-			mixin Request!(args[(i*4)], args[(i*4)+1], args[(i*4)+2], args[(i*4)+3], Package, Name);
+			mixin Request!(args[(i)], args[(i)+1], args[(i)+2], args[(i)+3], Package, Name);
 		}
 		}
 	});
